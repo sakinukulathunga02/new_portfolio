@@ -215,14 +215,14 @@ const skillsData: Skill[] = [
     name: 'Next.js',
     image_filename: 'nextjs.png',
     content_type: 'image/png',
-    image_data: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MDAgNDAwIj4KICA8cmVjdCB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0iIzAwMDAwMCIgcng9IjQwIi8+CiAgPHRleHQgeD0iNTAlIiB5PSI0NSUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSI3MCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IndoaXRlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj5OZXh0LmpzPC90ZXh0PgogIDx0ZXh0IHg9IjUwJSIgeT0iNjUlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNzAiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRzZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRzZSI+REI8L3RleHQ+Cjwvc3ZnPg=='
+    image_data: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MDAgNDAwIj4KICA8cmVjdCB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0iIzAwMDAwMCIgcng9IjQwIi8+CiAgPHRleHQgeD0iNTAlIiB5PSI0NSUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSI3MCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IndoaXRlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj5OZXh0LmpzPC90ZXh0PgogIDx0ZXh0IHg9IjUwJSIgeT0iNjUlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNzAiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRzZSI+REI8L3RleHQ+Cjwvc3ZnPg=='
   },
   {
     id: '14',
     name: 'Tailwind CSS',
     image_filename: 'tailwind.png',
     content_type: 'image/png',
-    image_data: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MDAgNDAwIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0idHdHcmFkaWVudCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNmNzU2MDA7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICAgIDxzdG9wIG9mZnNldD0iMzMlIiBzdHlsZT0ic3RvcC1jb2xvcjojZmYzMzMzO3N0b3Atb3BhY2l0eToxIiAvPgogICAgICA8c3RvcCBvZmZzZXQ9IjY2JSIgc3R5bGU9InN0b3AtY29sb3I6IzAwYWFmZjtzdG9wLW9wYWNpdHk6MSIgLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdHlsZT0ic3RvcC1jb2xvcjojMDBmZjJhO3N0b3Atb3BhY2l0eToxIiAvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3Qgd2lkdGg9IjQwMCIgaGVpZ2h0PSI0MDAiIGZpbGw9InVybCgjZmlnbWFHcmFkaWVudCkiIHJ4PSI0MCIvPgogIDx0ZXh0IHg9IjUwJSIgeT0iNjUlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNjUiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRzZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRzZSI+Q1NTPC90ZXh0Pgo8L3N2Zz4='
+    image_data: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MDAgNDAwIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0idHdHcmFkaWVudCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNmNzU2MDA7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICAgIDxzdG9wIG9mZnNldD0iMzMlIiBzdHlsZT0ic3RvcC1jb2xvcjojZmYzMzMzO3N0b3Atb3BhY2l0eToxIiAvPgogICAgICA8c3RvcCBvZmZzZXQ9IjY2JSIgc3R5bGU9InN0b3AtY29sb3I6IzAwYWFmZjtzdG9wLW9wYWNpdHk6MSIgLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdHlsZT0ic3RvcC1jb2xvcjojMDBmZjJhO3N0b3Atb3BhY2l0eToxIiAvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3Qgd2lkdGg9IjQwMCIgaGVpZ2h0PSI0MDAiIGZpbGw9InVybCgjZmlnbWFHcmFkaWVudCkiIHJ4PSI0MCIvPgogIDx0ZXh0IHg9IjUwJSIgeT0iNjUlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIwIiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0id2hpdGUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiPkZpZ21hPC90ZXh0Pgo8L3N2Zz4='
   },
   {
     id: '15',
@@ -252,14 +252,14 @@ const skillsData: Skill[] = [
     name: 'MongoDB',
     image_filename: 'mongodb.png',
     content_type: 'image/png',
-    image_data: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MDAgNDAwIj4KICA8cmVjdCB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0iIzQ3QTI0OCIgcng9IjQwIi8+CiAgPHRleHQgeD0iNTAlIiB5PSI0NSUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSI3MCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IndoaXRlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj5Nb25nbzwvdGV4dD4KICA8dGV4dCB4PSI1MCUiIHk9IjY1JSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjcwIiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0id2hpdGUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiPkRCPC90ZXh0Pgo8L3N2Zz4='
+    image_data: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MDAgNDAwIj4KICA8cmVjdCB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0iIzQ3QTI0OCIgcng9IjQwIi8+CiAgPHRleHQgeD0iNTAlIiB5PSI0NSUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSI3MCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IndoaXRlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj5Nb25nbzwvdGV4dD4KICA8dGV4dCB4PSI1MCUiIHk9IjY1JSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjcwIiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0iIzFmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRzZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRzZSI+U2NyYXBpbmc8L3RleHQ+Cjwvc3ZnPg=='
   },
   {
     id: '19',
     name: 'Vector DB',
     image_filename: 'vectordb.png',
     content_type: 'image/png',
-    image_data: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MDAgNDAwIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0idmRiR3JhZGllbnQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojOGI1Y2Y2O3N0b3Atb3BhY2l0eToxIiAvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNhNzhmZmY7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0idXJsKCN2ZGJHcmFkaWVudCkiIHJ4PSI0MCIvPgogIDx0ZXh0IHg9IjUwJSIgeT0iNDUlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNzAiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRzZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRzZSI+U2NyYXBpbmc8L3RleHQ+Cjwvc3ZnPgogIDx0ZXh0IHg9IjUwJSIgeT0iNjUlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNzAiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRzZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRzZSI+REI8L3RleHQ+Cjwvc3ZnPg=='
+    image_data: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MDAgNDAwIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0idmRiR3JhZGllbnQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojOGI1Y2Y2O3N0b3Atb3BhY2l0eToxIiAvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNhNzhmZmY7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0idXJsKCN2ZGJHcmFkaWVudCkiIHJ4PSI0MCIvPgogIDx0ZXh0IHg9IjUwJSIgeT0iNDUlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNzAiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRzZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRzZSI+VmVjdG9yPC90ZXh0PgogIDx0ZXh0IHg9IjUwJSIgeT0iNjUlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNzAiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRzZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRzZSI+REI8L3RleHQ+Cjwvc3ZnPg=='
   },
 
   // Tools & Others
@@ -434,8 +434,10 @@ export default function About() {
           setCertificates(certificatesData);
           setLoading(false);
         }, 500); // 500ms delay to simulate loading
-      } catch (err: any) {
-        setError(err.message);
+      } catch (err) {
+        let message = 'Unknown error';
+        if (err instanceof Error) message = err.message;
+        setError(message);
         setLoading(false);
       }
     };
@@ -485,17 +487,27 @@ export default function About() {
     setFormError(null);
 
     try {
-      // Simulate form submission
-      setTimeout(() => {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ firstName, lastName, contactEmail, message }),
+      });
+
+      if (response.ok) {
         setFormMessage('Your message has been sent successfully!');
         setFirstName('');
         setLastName('');
         setContactEmail('');
         setMessage('');
-        setFormLoading(false);
-      }, 1000);
-    } catch (err: any) {
-      setFormError(err.message);
+      } else {
+        const data = await response.json();
+        setFormError(data.error || 'Failed to send message');
+      }
+    } catch (err) {
+      let message = 'Unknown error';
+      if (err instanceof Error) message = err.message;
+      setFormError(message);
+    } finally {
       setFormLoading(false);
     }
   };
@@ -702,15 +714,15 @@ export default function About() {
       `}</style>
 
       {/* Navigation */}
-      <nav className="fixed top-0 left-0 right-0 z-50 nav-animation flex justify-between items-center px-4 py-2 bg-slate-900/80 border-b border-slate-700 shadow-lg backdrop-blur">
+      <nav className="fixed top-0 left-0 right-0 z-50 nav-animation flex justify-between items-center px-4 py-2 bg-slate-800/20 backdrop-blur">
         {/* Left: Navigation Links */}
-        <div className="flex flex-wrap space-x-4 text-white font-semibold px-2 md:px-15">
-          <a href="#about-me" className="hover:text-blue-400 transition-colors text-lg font-medium">About me</a>
-          <a href="#experience" className="hover:text-blue-400 transition-colors text-lg font-medium">Experience</a>
-          <a href="#projects" className="hover:text-blue-400 transition-colors text-lg font-medium">Projects</a>
-          <a href="#skills" className="hover:text-blue-400 transition-colors text-lg font-medium">Skills</a>
-          <a href="#certificates" className="hover:text-blue-400 transition-colors text-lg font-medium">Certificates</a>
-          <a href="#contact-me" className="hover:text-blue-400 transition-colors text-lg font-medium">Contact me</a>
+        <div className="hidden md:flex space-x-8 text-slate-300 px-15">
+          <a href="#about-me" className="hover:text-white transition-colors text-lg font-medium">About me</a>
+          <a href="#experience" className="hover:text-white transition-colors text-lg font-medium">Experience</a>
+          <a href="#projects" className="hover:text-white transition-colors text-lg font-medium">Projects</a>
+          <a href="#skills" className="hover:text-white transition-colors text-lg font-medium">Skills</a>
+          <a href="#certificates" className="hover:text-white transition-colors text-lg font-medium">Certificates</a>
+          <a href="#contact-me" className="hover:text-white transition-colors text-lg font-medium">Contact me</a>
         </div>
 
         {/* Right: Social Icons and Contact Info */}
@@ -736,7 +748,7 @@ export default function About() {
                 className="w-10 h-10 bg-slate-700/50 rounded-full flex items-center justify-center hover:bg-slate-600/50 transition-all duration-300"
               >
                 {/* LinkedIn Icon */}
-                <svg className="w-5 h-5 text-slate-300" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 -5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" /></svg>
+                <svg className="w-5 h-5 text-slate-300" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-900 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" /></svg>
               </a>
             )}
             {personal.email && (
@@ -759,9 +771,12 @@ export default function About() {
       </nav>
 
       {/* Main Content */}
-      <div id="about-me" className="relative z-10 flex flex-col lg:flex-row items-center justify-between px-6 py-20">
+      <div
+        id="about-me"
+        className="relative z-10 flex flex-col lg:flex-row items-center justify-between px-2 sm:px-4 md:px-6 py-20 gap-10"
+      >
         {/* Left Side - Content */}
-        <div className="flex-1 max-w-2xl lg:pr-10 mb-10 lg:mb-0">
+        <div className="flex-1 w-full max-w-2xl lg:pr-10 mb-10 lg:mb-0">
           {/* Large Name */}
           <h1 className="animate-fade-in-down-about mt-15 text-6xl md:text-7xl lg:text-8xl font-extrabold text-white mb-2 leading-tight px-4 py-2 md:px-20">
             {personal.name}
@@ -844,23 +859,32 @@ export default function About() {
           </div>
         </div>
 
-        
-            
+        {/* Right Side - Image Placeholder */}
+        <div className="flex items-center justify-center flex-1 pr-0 lg:pr-10 mb-8 lg:mb-0">
+          <div className="relative">
+            {/* Profile Image - visible on all screens, responsive size */}
+            <img
+              src="/profile.png"
+              alt="Profile"
+              className="rounded-full border-4 border-blue-500 shadow-lg w-32 h-32 sm:w-40 sm:h-40 md:w-56 md:h-56 object-cover mx-auto animate-float"
+              style={{ background: "#222" }}
+            />
 
-            {/* Floating Stats Card */}
-            <div className="animate-fade-in-right absolute -bottom-8 -right-75 bg-slate-800/80 backdrop-blur-md rounded-2xl p-6 border border-slate-700/50 shadow-xl hover-lift">
+            {/* Floating Stats Card - only on large screens */}
+            <div className="hidden lg:block animate-fade-in-right absolute -bottom-8 -right-24 bg-slate-800/80 backdrop-blur-md rounded-2xl p-6 border border-slate-700/50 shadow-xl hover-lift">
               <div className="text-center">
                 <div className="text-4xl font-bold text-white mb-2 ">10+</div>
                 <div className="text-sm text-slate-400">Completed Projects</div>
               </div>
             </div>
           </div>
-        
+        </div>
+      </div>
 
       {/* My Experience Section */}
-      <div id="experience" className="relative z-10 py-20 px-6">
+      <div id="experience" className="relative z-10 py-20 px-2 sm:px-4 md:px-6">
         <h2 className="animate-fade-in-up text-5xl font-bold text-center text-white mb-16">My Experience</h2>
-        <div className="flex flex-wrap justify-center items-stretch gap-x-8 gap-y-12">
+        <div className="flex flex-wrap justify-center items-stretch gap-x-4 gap-y-8">
           {experiences.map((exp, index) => (
             <React.Fragment key={exp.id || index}>
               <div
@@ -912,13 +936,13 @@ export default function About() {
       </div>
 
       {/* Projects Section */}
-      <div id="projects" className="relative z-10 py-20 px-6">
+      <div id="projects" className="relative z-10 py-20 px-2 sm:px-4 md:px-6">
         <h2 className="animate-fade-in-up text-5xl font-bold text-center text-white mb-16">Projects</h2>
         <p className="text-center text-slate-400 mb-12">
           Here are some of my notable projects. Click on any project to view its repository.</p>
         {/* Scrollable row container */}
         <div
-          className="flex overflow-x-auto scrollbar-custom gap-6 px-2"
+          className="flex overflow-x-auto scrollbar-custom gap-4 sm:gap-6 px-1 sm:px-2"
           style={{
             scrollSnapType: 'x mandatory',
           }}
@@ -929,11 +953,11 @@ export default function About() {
               href={project.repository_url || '#'}
               target="_blank"
               rel="noopener noreferrer"
-              className="project-card hover-lift group bg-slate-800/30 backdrop-blur-md rounded-2xl p-6 border border-slate-700/50 hover:bg-slate-700/40 hover:border-slate-600/50 transition-all duration-300 cursor-pointer flex-shrink-0"
+              className="project-card hover-lift group bg-slate-800/30 backdrop-blur-md rounded-2xl p-4 sm:p-6 border border-slate-700/50 hover:bg-slate-700/40 hover:border-slate-600/50 transition-all duration-300 cursor-pointer flex-shrink-0"
               style={{
-                minWidth: 'calc(33.333% - 1rem)', // 3 cards per view
-                maxWidth: 'calc(33.333% - 1rem)',
-                height: '260px',
+                minWidth: '260px',
+                maxWidth: '320px',
+                width: '90vw',
                 scrollSnapAlign: 'start',
               }}
             >
@@ -956,9 +980,8 @@ export default function About() {
       </div>
 
       {/* Skills and Certificates Section - Two Column Layout */}
-      <div className="relative z-10 py-20 px-6">
-        <div className="flex flex-col md:flex-row justify-center gap-12">
-
+      <div className="relative z-10 py-20 px-2 sm:px-4 md:px-6">
+        <div className="flex flex-col md:flex-row justify-center gap-8 md:gap-12">
           {/* Skills Section (Left Column) */}
           <div id="skills" className="w-full md:w-1/2 flex flex-col items-center">
             <h2 className="animate-fade-in-up text-5xl font-bold text-white mb-12">My Skills</h2>
@@ -1052,11 +1075,14 @@ export default function About() {
       </div>
 
       {/* Contact Me Section */}
-      <div id="contact-me" className="relative z-10 py-20 px-6">
+      <div id="contact-me" className="relative z-10 py-20 px-2 sm:px-4 md:px-6">
         <h2 className="animate-fade-in-up text-5xl font-bold text-center text-white mb-16">Contact Me</h2>
         <div className="flex justify-center">
-          <form onSubmit={handleContactSubmit} className="contact-form hover-lift bg-slate-800/30 backdrop-blur-md rounded-2xl p-8 border border-slate-700/50 max-w-lg w-full shadow-2xl">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+          <form
+            onSubmit={handleContactSubmit}
+            className="contact-form hover-lift bg-slate-800/30 backdrop-blur-md rounded-2xl p-4 sm:p-8 border border-slate-700/50 max-w-lg w-full shadow-2xl"
+          >
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 mb-6">
               <div className="animate-fade-in-up stagger-1">
                 <label htmlFor="firstName" className="block text-slate-300 text-sm font-medium mb-2">First Name</label>
                 <input
