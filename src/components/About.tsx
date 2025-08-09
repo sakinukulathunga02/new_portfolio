@@ -862,13 +862,7 @@ export default function About() {
         {/* Right Side - Image Placeholder */}
         <div className="flex items-center justify-center flex-1 pr-0 lg:pr-10 mb-8 lg:mb-0">
           <div className="relative">
-            {/* Profile Image - visible on all screens, responsive size */}
-            <img
-              src="/profile.png"
-              alt="Profile"
-              className="rounded-full border-4 border-blue-500 shadow-lg w-32 h-32 sm:w-40 sm:h-40 md:w-56 md:h-56 object-cover mx-auto animate-float"
-              style={{ background: "#222" }}
-            />
+            
 
             {/* Floating Stats Card - only on large screens */}
             <div className="hidden lg:block animate-fade-in-right absolute -bottom-8 -right-24 bg-slate-800/80 backdrop-blur-md rounded-2xl p-6 border border-slate-700/50 shadow-xl hover-lift">
