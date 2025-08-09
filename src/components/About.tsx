@@ -844,19 +844,18 @@ export default function About() {
           </div>
         </div>
 
-        {/* Right Side - Floating Stats Card (Desktop Only) */}
-        <div className="hidden lg:flex items-center justify-center flex-1 pr-10">
-          <div className="relative">
+        
+            
+
             {/* Floating Stats Card */}
-            <div className="animate-fade-in-right bg-slate-800/80 backdrop-blur-md rounded-2xl p-6 border border-slate-700/50 shadow-xl hover-lift">
+            <div className="animate-fade-in-right absolute -bottom-8 -right-75 bg-slate-800/80 backdrop-blur-md rounded-2xl p-6 border border-slate-700/50 shadow-xl hover-lift">
               <div className="text-center">
-                <div className="text-4xl font-bold text-white mb-2">10+</div>
+                <div className="text-4xl font-bold text-white mb-2 ">10+</div>
                 <div className="text-sm text-slate-400">Completed Projects</div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
+        
 
       {/* My Experience Section */}
       <div id="experience" className="relative z-10 py-20 px-6">
