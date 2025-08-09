@@ -446,7 +446,7 @@ export default function About() {
   if (loading) {
     return (
       <div className="min-h-screen flex items-center justify-center" style={{ backgroundImage: 'url(/Desk.png)', backgroundSize: 'cover', backgroundPosition: 'top center', backgroundRepeat: 'no-repeat' }}>
-        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-400"></div>
+        {/* <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-400"></div> */}
       </div>
     );
   }
