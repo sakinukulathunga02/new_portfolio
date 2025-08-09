@@ -222,7 +222,7 @@ const skillsData: Skill[] = [
     name: 'Tailwind CSS',
     image_filename: 'tailwind.png',
     content_type: 'image/png',
-    image_data: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MDAgNDAwIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0idHdHcmFkaWVudCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNmNzU2MDA7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICAgIDxzdG9wIG9mZnNldD0iMzMlIiBzdHlsZT0ic3RvcC1jb2xvcjojZmYzMzMzO3N0b3Atb3BhY2l0eToxIiAvPgogICAgICA8c3RvcCBvZmZzZXQ9IjY2JSIgc3R5bGU9InN0b3AtY29sb3I6IzAwYWFmZjtzdG9wLW9wYWNpdHk6MSIgLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdHlsZT0ic3RvcC1jb2xvcjojMDBmZjJhO3N0b3Atb3BhY2l0eToxIiAvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3Qgd2lkdGg9IjQwMCIgaGVpZ2h0PSI0MDAiIGZpbGw9InVybCgjZmlnbWFHcmFkaWVudCkiIHJ4PSI0MCIvPgogIDx0ZXh0IHg9IjUwJSIgeT0iNjUlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNjUiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRzZSI+Q1NTPC90ZXh0Pgo8L3N2Zz4='
+    image_data: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MDAgNDAwIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0idHdHcmFkaWVudCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNmNzU2MDA7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICAgIDxzdG9wIG9mZnNldD0iMzMlIiBzdHlsZT0ic3RvcC1jb2xvcjojZmYzMzMzO3N0b3Atb3BhY2l0eToxIiAvPgogICAgICA8c3RvcCBvZmZzZXQ9IjY2JSIgc3R5bGU9InN0b3AtY29sb3I6IzAwYWFmZjtzdG9wLW9wYWNpdHk6MSIgLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdHlsZT0ic3RvcC1jb2xvcjojMDBmZjJhO3N0b3Atb3BhY2l0eToxIiAvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3Qgd2lkdGg9IjQwMCIgaGVpZ2h0PSI0MDAiIGZpbGw9InVybCgjZmlnbWFHcmFkaWVudCkiIHJ4PSI0MCIvPgogIDx0ZXh0IHg9IjUwJSIgeT0iNjUlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNjUiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRzZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRzZSI+Q1NTPC90ZXh0Pgo8L3N2Zz4='
   },
   {
     id: '15',
@@ -461,13 +461,13 @@ export default function About() {
     );
   }
 
-  // if (!personal) {
-  //   return (
-  //     <div className="min-h-screen flex items-center justify-center" style={{ backgroundImage: 'url(/Desk.png)', backgroundSize: 'cover', backgroundPosition: 'top center', backgroundRepeat: 'no-repeat' }}>
-  //       <div className="text-slate-400 text-lg">No personal information found</div>
-  //     </div>
-  //   );
-  // }
+  if (!personal) {
+    return (
+      <div className="min-h-screen flex items-center justify-center" style={{ backgroundImage: 'url(/Desk.png)', backgroundSize: 'cover', backgroundPosition: 'top center', backgroundRepeat: 'no-repeat' }}>
+        <div className="text-slate-400 text-lg">No personal information found</div>
+      </div>
+    );
+  }
 
   const formatDateForExperience = (dateString?: string) => {
     if (!dateString) return '';
@@ -702,15 +702,15 @@ export default function About() {
       `}</style>
 
       {/* Navigation */}
-      <nav className="fixed top-0 left-0 right-0 z-50 nav-animation flex justify-between items-center px-4 py-2 bg-slate-800/20 backdrop-blur">
+      <nav className="fixed top-0 left-0 right-0 z-50 nav-animation flex justify-between items-center px-4 py-2 bg-slate-900/80 border-b border-slate-700 shadow-lg backdrop-blur">
         {/* Left: Navigation Links */}
-        <div className="flex flex-wrap space-x-4 text-slate-300 px-2 md:px-15">
-          <a href="#about-me" className="hover:text-white transition-colors text-lg font-medium">About me</a>
-          <a href="#experience" className="hover:text-white transition-colors text-lg font-medium">Experience</a>
-          <a href="#projects" className="hover:text-white transition-colors text-lg font-medium">Projects</a>
-          <a href="#skills" className="hover:text-white transition-colors text-lg font-medium">Skills</a>
-          <a href="#certificates" className="hover:text-white transition-colors text-lg font-medium">Certificates</a>
-          <a href="#contact-me" className="hover:text-white transition-colors text-lg font-medium">Contact me</a>
+        <div className="flex flex-wrap space-x-4 text-white font-semibold px-2 md:px-15">
+          <a href="#about-me" className="hover:text-blue-400 transition-colors text-lg font-medium">About me</a>
+          <a href="#experience" className="hover:text-blue-400 transition-colors text-lg font-medium">Experience</a>
+          <a href="#projects" className="hover:text-blue-400 transition-colors text-lg font-medium">Projects</a>
+          <a href="#skills" className="hover:text-blue-400 transition-colors text-lg font-medium">Skills</a>
+          <a href="#certificates" className="hover:text-blue-400 transition-colors text-lg font-medium">Certificates</a>
+          <a href="#contact-me" className="hover:text-blue-400 transition-colors text-lg font-medium">Contact me</a>
         </div>
 
         {/* Right: Social Icons and Contact Info */}
