@@ -537,7 +537,7 @@ export default function About() {
         className="relative z-10 flex flex-col lg:flex-row items-center justify-between px-6 py-20"
         style={{
           // On mobile, show left side of background image
-          backgroundPosition: 'left center',
+          backgroundPosition: 'left',
         }}
       >
         {/* Left Side - Content */}
