@@ -443,13 +443,13 @@ export default function About() {
     loadData();
   }, []);
 
-  // if (loading) {
-  //   return (
-  //     <div className="min-h-screen flex items-center justify-center" style={{ backgroundImage: 'url(/Desk.png)', backgroundSize: 'cover', backgroundPosition: 'top center', backgroundRepeat: 'no-repeat' }}>
-  //       <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-400"></div>
-  //     </div>
-  //   );
-  // }
+  if (loading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center" style={{ backgroundImage: 'url(/Desk.png)', backgroundSize: 'cover', backgroundPosition: 'top center', backgroundRepeat: 'no-repeat' }}>
+        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-400"></div>
+      </div>
+    );
+  }
 
   if (error) {
     return (
@@ -461,13 +461,13 @@ export default function About() {
     );
   }
 
-  if (!personal) {
-    return (
-      <div className="min-h-screen flex items-center justify-center" style={{ backgroundImage: 'url(/Desk.png)', backgroundSize: 'cover', backgroundPosition: 'top center', backgroundRepeat: 'no-repeat' }}>
-        <div className="text-slate-400 text-lg">No personal information found</div>
-      </div>
-    );
-  }
+  // if (!personal) {
+  //   return (
+  //     <div className="min-h-screen flex items-center justify-center" style={{ backgroundImage: 'url(/Desk.png)', backgroundSize: 'cover', backgroundPosition: 'top center', backgroundRepeat: 'no-repeat' }}>
+  //       <div className="text-slate-400 text-lg">No personal information found</div>
+  //     </div>
+  //   );
+  // }
 
   const formatDateForExperience = (dateString?: string) => {
     if (!dateString) return '';
