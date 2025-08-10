@@ -859,17 +859,26 @@ export default function About() {
           </div>
         </div>
 
-        {/* Right Side - Image Placeholder */}
+        {/* Right Side - Profile Image and Stats */}
         <div className="flex items-center justify-center flex-1 pr-0 lg:pr-10 mb-8 lg:mb-0">
-          <div className="relative">
-            
-
-            {/* Floating Stats Card - only on large screens */}
-            <div className="hidden lg:block animate-fade-in-right absolute -bottom-8 -right-24 bg-slate-800/80 backdrop-blur-md rounded-2xl p-6 border border-slate-700/50 shadow-xl hover-lift">
-              <div className="text-center">
-                <div className="text-4xl font-bold text-white mb-2 ">10+</div>
-                <div className="text-sm text-slate-400">Completed Projects</div>
+          <div className="relative flex flex-col items-center">
+            {/* Profile Image - always visible, interactive */}
+            <div className="group relative">
+              <img
+                src="/profile.png"
+                alt="Profile"
+                className="rounded-full border-4 border-[#242540] shadow-lg w-150 h-150 sm:w-80 sm:h-80 lg:w-96 lg:h-96 object-cover bg-slate-800/50 backdrop-blur-sm hover:border-[#8398D9] hover:shadow-blue-500/20 cursor-pointer"
+              />
+              {/* Tooltip on hover */}
+              <div className="absolute left-1/2 -bottom-8 -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity bg-slate-900/90 text-white text-xs rounded px-3 py-1 pointer-events-none z-10">
+                Hi, that's me!
               </div>
+            </div>
+
+            {/* Floating Stats Card - always visible, responsive position */}
+            <div className="animate-fade-in-right mt-4 lg:mt-0 lg:absolute lg:-bottom-8 lg:-right-24 bg-slate-800/80 backdrop-blur-md rounded-2xl p-4 sm:p-6 border border-slate-700/50 shadow-xl hover-lift w-36 sm:w-44 text-center">
+              <div className="text-4xl font-bold text-white mb-2">10+</div>
+              <div className="text-sm text-slate-400">Completed Projects</div>
             </div>
           </div>
         </div>
