@@ -199,7 +199,7 @@ const skillsData: Skill[] = [
     name: 'CSS',
     image_filename: 'css.png',
     content_type: 'image/png',
-    image_data: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MDAgNDAwIj4KICA8cmVjdCB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0iIzE1NzJCNiIgcng9IjQwIi8+CiAgPHRleHQgeD0iNTAlIiB5PSI1NSUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNDAiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRzZSI+Q1NTMzwvdGV4dD4KPC9zdmc+'
+    image_data: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MDAgNDAwIj4KICA8cmVjdCB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0iIzE1NzJCNiIgcng9IjQwIi8+CiAgPHRleHQgeD0iNTAlIiB5PSI1NSUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNDAiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRzZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRzZSI+Q1NTMzwvdGV4dD4KPC9zdmc+'
   },
 
   // Frameworks
@@ -871,7 +871,7 @@ export default function About() {
               />
               {/* Tooltip on hover */}
               <div className="absolute left-1/2 -bottom-8 -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity bg-slate-900/90 text-white text-xs rounded px-3 py-1 pointer-events-none z-10">
-                Hi, that's me!
+                Hi, that&apos;s me!
               </div>
             </div>
 
